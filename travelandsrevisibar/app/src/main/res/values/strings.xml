@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Travelands</string>
+    <string-array name="daftar_kota">
+        <item>Semarang (SRG)</item>
+        <item>Surabaya (SUB)</item>
+        <item>Bali (DPS)</item>
+        <item>Jakarta (HLP)</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_profile"
+    android:label="Profile"
+    app:startDestination="@id/historyActivity">
+
+    <activity
+        android:id="@+id/historyActivity"
+        android:name="com.travelands.pemesanantiket.view.history.HistoryActivity"
+        android:label="HistoryActivity"
+        tools:layout="@layout/activity_history" />
+
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.travelands.pemesanantiket.login.LoginActivity"
+        android:label="Logout"
+        tools:layout="@layout/activity_login" />
+
+</navigation>
